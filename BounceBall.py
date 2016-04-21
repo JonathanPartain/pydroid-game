@@ -1,15 +1,10 @@
 import sys, pygame
 from random import randint
-<<<<<<< HEAD
-from time import sleep
 
 pygame.init()
 x = 1
-=======
 
-pygame.init()
 
->>>>>>> 53a87445335cdb0d69a3e1b14e0de44b09156365
 size = width, height = 800, 600
 speed = [2, 2]
 green = 0,255,0
@@ -81,11 +76,7 @@ background.blit(text, textpos)
 
 clock = pygame.time.Clock()
 
-<<<<<<< HEAD
 while x:
-=======
-while 1:
->>>>>>> 53a87445335cdb0d69a3e1b14e0de44b09156365
     for event in pygame.event.get():
         if event.type == pygame.QUIT: sys.exit()
         
@@ -177,19 +168,13 @@ while 1:
         pygame.draw.rect(screen, black, (ballrect.x, ballrect.y, 20, 20))
         text = font.render("{}".format("You lose!!"), 8, (250,0,0))
         scoreNum = 0
-<<<<<<< HEAD
         x = 0
-=======
->>>>>>> 53a87445335cdb0d69a3e1b14e0de44b09156365
     
     
     if scoreNum == 10:
     
         text = font.render("{}".format("You win!"), 8, (250,0,0))
-<<<<<<< HEAD
         x = 0
-=======
->>>>>>> 53a87445335cdb0d69a3e1b14e0de44b09156365
 
         
 
